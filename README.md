@@ -19,3 +19,7 @@ To use the script, you will need to follow these steps:
 Note that the script may take some time to run, depending on the number of packages that need to be uninstalled or disabled. Once the script has finished running, you should see a message indicating that the operation was successful.
 
 Please be cautious when running this script, as it will remove all Facebook/Meta products and disable some associated system apps. This may cause some features or functions of your device to stop working properly, so please make sure to back up your device before running the script.
+
+## License
+
+This script is released under the [MIT License](LICENSE).
