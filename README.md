@@ -1,4 +1,4 @@
-# android.deFace
+# bread.circuses
 A Bash shell script that uses the `Android Debug Bridge` (ADB) command-line tool to communicate with an Android device. It defines two arrays, `packages` and `system_packages`, that contain the package names of Facebook/Meta products and system packages associated with Facebook respectively.
 
 The script then uses a `for` loop to iterate over each package in the packages array, and for each package, it calls the `adb shell pm uninstall` command with the package name and the `--user 0` option to remove the package for the primary user. This command uninstalls the app and removes all its associated data from the device.
